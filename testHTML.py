@@ -6,7 +6,7 @@ from selenium import webdriver
 def file_uri(filename):
     return pathlib.Path(os.path.abspath(filename)).as_uri() # getting url or file name
 
-driver = webdriver.Chrome(('Nhokphal/Desktop/chromedriver')) #get separately from chrome
+driver = webdriver.Chrome(('')) #get separately from chrome
 
 
 class WebpageTests(unittest.TestCase):
